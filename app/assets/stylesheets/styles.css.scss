@@ -1,0 +1,29 @@
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+$btnPrimaryBackground: purple;
+
+/* You can change the font */
+$baseFontFamily: Oxygen;
+@import url(htt://fonts.googleleapis.com/css?/family=Oxygen);
+
+@import 'bootstrap';
+
+body {
+		padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.footer {
+		margin-top: 50px;
+		color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
