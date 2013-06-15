@@ -28,7 +28,8 @@ body {
 	}
 }
 
-/* Required for jQuery Masony */
+/* Required for jQuery Masonry */
+
 .box {
     margin: 5px;
     padding: 5px;
@@ -43,7 +44,6 @@ body {
 }
 
 .box img {
-    display: block;
     width: 100%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
